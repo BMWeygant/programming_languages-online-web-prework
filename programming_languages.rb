@@ -38,7 +38,7 @@ def reformat_languages(languages)
     languages_hash.each do |language, attribute_hash|
       attribute_hash.each do |attribute, str_value|
 
-#binding.pry
+binding.pry
 end
 end
   end
