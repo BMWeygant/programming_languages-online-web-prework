@@ -44,9 +44,8 @@ new_hash[language][:style] ||= []
 new_hash[language][:style] << languages_key
 if language_attributes[language][attribute].nil?
   language_attributes[language][attribute] = str_value
-end
-#binding.pry
-end
-end
+        end
+      end
+    end
   end
 end
