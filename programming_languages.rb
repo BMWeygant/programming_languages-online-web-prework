@@ -41,7 +41,8 @@ def reformat_languages(languages)
           new_hash[language] = {}
         end
 new_hash[language][:style] ||= []
-
+new_hash[language][:style] << languages_key
+if language_attributes[language][attribute].nil?
 #binding.pry
 end
 end
