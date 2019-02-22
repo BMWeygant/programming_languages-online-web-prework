@@ -48,4 +48,5 @@ if language_attributes[language][attribute].nil?
       end
     end
   end
+  new_hash
 end
